@@ -6,17 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/edtText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="texto"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btOk"
         android:layout_width="wrap_content"
@@ -25,7 +14,7 @@
         android:text="OK"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etTexto" />
+        app:layout_constraintTop_toBottomOf="@+id/btPair" />
     <TextView 
 	    android:id="@+id/tvErr"
 	    android:layout_width="wrap_content"
@@ -35,4 +24,13 @@
 	    app:layout_constraintEnd_toEndOf="parent"
 	    app:layout_constraintStart_toStartof="parent"
 	    app:layout_constraintTo_toBottomOf="@+id/btOk" />
+	<Button 
+		android:id="@+id/btPair"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Pair"
+		android:layout_marginTop="16dp"
+		android:layout_constraintTop_toTopOf="parent"
+		android:layout_constraintEnd_toEndOf="parent"
+		android:layout_constraintStart_toStartof="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

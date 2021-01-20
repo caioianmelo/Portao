@@ -20,7 +20,7 @@
 
     <uses-feature android:name="android.hardware.bluetooth" />
     <uses-feature android:name="android.hardware.wifi" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:icon="@drawable/ic_bluetooth"/>
+
     <uses-permission android:name="android.permission.BLUETOOTH" android:icon="@drawable/ic_bluetooth" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" android:icon="@drawable/ic_wifi_symbol"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" android:icon="@drawable/ic_wifi_symbol"/>
